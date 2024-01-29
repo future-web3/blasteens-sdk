@@ -1,0 +1,18 @@
+{
+  "tickets": [],
+  "showTicketWindow": false,
+  "games": {
+    "escapeFromGerms": {
+      "numberOfLives": 0
+    },
+    "tommyJumping": {
+      "numberOfLives": 0
+    },
+    "snowmanDefender": {
+      "numberOfLives": 0
+    },
+    "emojiMatch": {
+      "numberOfLives": 0
+    }
+  }
+}
