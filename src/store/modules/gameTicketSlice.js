@@ -16,7 +16,7 @@ const gameTicketSlice = createSlice({
     },
     useLives(state, action) {
       const gameName = action.payload;
-      if (state.games[gameName.numberOfLives] > 0) {
+      if (state.games[gameName].numberOfLives > 0) {
         state.games[gameName].numberOfLives -= 1;
       }
     },

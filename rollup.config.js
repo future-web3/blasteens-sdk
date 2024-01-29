@@ -5,7 +5,7 @@ import json from '@rollup/plugin-json';
 import { terser } from "rollup-plugin-terser";
 
 export default {
-    input: 'src/index.js',
+    input: 'index.js',
     output: [
         {
             file: 'dist/bundle.cjs.js',
@@ -30,5 +30,5 @@ export default {
         terser(),
         json()
     ],
-    external: ['react', 'react-dom']
+    external: ['react', 'react-dom','react-redux','@reduxjs/toolkit']
 };
