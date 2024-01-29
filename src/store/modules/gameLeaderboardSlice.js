@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
-import gameLeaderboardState from '../gameConfigs/gameLeaderboardState.json'
+import gameLeaderboardState from "../gameConfigs/gameLeaderboardState.json";
 
-const initialState = gameLeaderboardState
+const initialState = gameLeaderboardState;
 
 const gameLeaderboardSlice = createSlice({
   name: "leaderboards",
@@ -14,6 +14,9 @@ const gameLeaderboardSlice = createSlice({
     toggleSyncPermission(state, action) {
       const { gameName, allowSync } = action.payload;
       state[gameName].allowSync = allowSync;
+    },
+    addGame(state, action) {
+      state[action.payload] = { score: 0, allowSync: false };
     },
   },
 });
