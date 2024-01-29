@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
-import gameTicketState from '../gameConfigs/gameTicketState.json'
+import gameTicketState from "../gameConfigs/gameTicketState.json";
 
-const initialState = gameTicketState
+const initialState = gameTicketState;
 
 const gameTicketSlice = createSlice({
   name: "tickets",
@@ -13,6 +13,9 @@ const gameTicketSlice = createSlice({
     setNumberOfLives(state, action) {
       const { gameName, numberOfLives } = action.payload;
       state.games[gameName].numberOfLives = numberOfLives;
+    },
+    addGame(state, action) {
+      state.games[action.payload] = { numberOfLives: 0 };
     },
     useLives(state, action) {
       const gameName = action.payload;
