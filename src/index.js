@@ -1,4 +1,4 @@
-import { gameSDK } from './phaser/GameSDK';
+import { gameSDK } from './phaser/gameSDK';
 import store from '../src/store';
 
 import { gameTicketActions }  from './store/modules/gameTicketSlice';
@@ -12,8 +12,8 @@ export { gameTicketActions, gameLeaderboardActions };
 
 export { useGameDispatch, useGameSelector };
 
-function createGameSDK(store) {
-    return new gameSDK(store);
+function createGameSDK(gameName) {
+    return new gameSDK(gameName);
 }
 
 export { createGameSDK };

@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 import gameTicketState from '../gameConfigs/gameTicketState.json'
 
-const initialState = JSON.parse(gameTicketState)
+const initialState = gameTicketState
 
 const gameTicketSlice = createSlice({
   name: "tickets",
