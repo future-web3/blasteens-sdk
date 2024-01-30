@@ -13,6 +13,7 @@ export class gameSDK {
   startGame(callback) {
     const state = this.store.getState();
     if (state.gameTicket.games[this.gameName].numberOfLives > 0) {
+      this.store.dispatch(gameTicketActions.setShowTicketWindow(false));
       callback();
     } else {
       this.store.dispatch(gameTicketActions.setShowTicketWindow(true));
@@ -25,6 +26,9 @@ export class gameSDK {
         gameName: this.gameName,
         allowSync: true,
       }),
+    );
+    this.store.dispatch(
+      gameTicketActions.setShowTicketWindow(true),
     );
     callback();
   }

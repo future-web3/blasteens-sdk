@@ -7,7 +7,7 @@ export const store = configureStore({
     gameTicket: gameTicketReducer,
     gameLeaderboard: gameLeaderboardReducer,
   },
-  devTools: false,
+  devTools: true,
 });
 
 export * from './modules'
