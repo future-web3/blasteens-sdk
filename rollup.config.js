@@ -30,5 +30,5 @@ export default {
         terser(),
         json()
     ],
-    external: ['react', 'react-dom','react-redux','@reduxjs/toolkit']
+    external: ['react', 'react-dom', 'react-redux', '@reduxjs/toolkit']
 };

@@ -1,7 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
-import gameLeaderboardState from "../gameConfigs/gameLeaderboardState.json";
 
-const initialState = gameLeaderboardState;
+const initialState = {};
 
 const gameLeaderboardSlice = createSlice({
   name: "leaderboards",

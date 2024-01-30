@@ -2,7 +2,7 @@ import { configureStore } from "@reduxjs/toolkit";
 import gameTicketReducer from "./modules/gameTicketSlice";
 import gameLeaderboardReducer from "./modules/gameLeaderboardSlice";
 
-const store = configureStore({
+export const store = configureStore({
   reducer: {
     gameTicket: gameTicketReducer,
     gameLeaderboard: gameLeaderboardReducer,
@@ -10,4 +10,4 @@ const store = configureStore({
   devTools: false,
 });
 
-export default store;
+export * from './modules'

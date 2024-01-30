@@ -1,7 +1,9 @@
 import { createSlice } from "@reduxjs/toolkit";
-import gameTicketState from "../gameConfigs/gameTicketState.json";
-
-const initialState = gameTicketState;
+const initialState = {
+  "tickets": [],
+  "showTicketWindow": false,
+  "games": {}
+};
 
 const gameTicketSlice = createSlice({
   name: "tickets",

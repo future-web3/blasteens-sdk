@@ -1,2 +1,5 @@
-.idea
+# Folders
 node_modules
+dist/*
+.env
+idea.
