@@ -20,16 +20,13 @@ export class gameSDK {
   }
 
   endGame(callback) {
-    const state = this.store.getState();
-    if (state.gameTicket.games[this.gameName].numberOfLives === 0) {
-      this.store.dispatch(
-        gameLeaderboardActions.toggleSyncPermission({
-          gameName: this.gameName,
-          allowSync: true,
-        }),
-      );
-      callback();
-    }
+    this.store.dispatch(
+      gameLeaderboardActions.toggleSyncPermission({
+        gameName: this.gameName,
+        allowSync: true,
+      }),
+    );
+    callback();
   }
 
   updateHighScore(score) {
@@ -39,6 +36,10 @@ export class gameSDK {
         score,
       }),
     );
+  }
+
+  resetGameScore() {
+    this.store.dispatch(gameLeaderboardActions.resetGameScore(this.gameName))
   }
 
   getLives() {

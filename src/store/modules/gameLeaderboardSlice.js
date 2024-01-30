@@ -10,6 +10,9 @@ const gameLeaderboardSlice = createSlice({
       const { gameName, score } = action.payload;
       state[gameName].score = score;
     },
+    resetGameScore(state, action) {
+      state[action.payload].score = 0
+    },
     toggleSyncPermission(state, action) {
       const { gameName, allowSync } = action.payload;
       state[gameName].allowSync = allowSync;
