@@ -7,6 +7,7 @@ const store = configureStore({
     gameTicket: gameTicketReducer,
     gameLeaderboard: gameLeaderboardReducer,
   },
+  devTools: false,
 });
 
 export default store;
