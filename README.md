@@ -9,8 +9,13 @@ Blasteens SDK is tailored for game developers, streamlining integration with the
 
 ## Table of Contents
 * [Arcade SDK](#arcade-sdk)
-* [Indie-Game SDK](#indie-game-sdk)
+  * [Overview](#overview)
+  * [Features](#features)
+  * [Config](#config)
+  * [Usage](#usage)
 * [License](#license)
+* [Indie-Game SDK](#indie-game-sdk)
+
 * [Developed By](#developed-by)
 ## Arcade SDK
   ### Overview
