@@ -1,6 +1,6 @@
 # Blasteens SDK
-<p align="left">
-  <img alt="Blasteens" src="public/images/blasteens.png" width="450" >
+<p align="center">
+  <img alt="Blasteens" src="public/images/blasteens.png" width="500" >
 </p>
 
 Blasteens SDK is tailored for game developers, streamlining integration with the Blast Chain and smart contracts seamlessly. Specifically designed for talented game developers unfamiliar with crypto wallet connections and smart contract deployment, it simplifies the process. Blasteens SDK aims to empower game developers to explore the potential of blockchain gaming, fostering inclusivity within the GameFi community.
