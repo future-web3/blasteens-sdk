@@ -7,10 +7,10 @@ Blasteens SDK is tailored for game developers, streamlining integration with the
 <br>
 <br>
 > Want to know more? <br>
-> 👉 [Blasteens' READMD.md](https://github.com/future-web3/blasteens-ui) 👈
+> 👉 [Blasteens' README.md](https://github.com/future-web3/blasteens-ui) 👈
 
 > Be more comfy watching an intro video?<br>
-> 👉 [Blasteens' Youtube Video](url) 👈
+> 👉 [What is Blasteens?](url) 👈
 
 ## Table of Contents
 * [Arcade SDK](#arcade-sdk)
