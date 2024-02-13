@@ -5,7 +5,12 @@
 
 Blasteens SDK is tailored for game developers, streamlining integration with the Blast Chain and smart contracts seamlessly. Specifically designed for talented game developers unfamiliar with crypto wallet connections and smart contract deployment, it simplifies the process. Blasteens SDK aims to empower game developers to explore the potential of blockchain gaming, fostering inclusivity within the GameFi community.
 <br>
-> Want to know more about Blasteens? [visit us](example.com) !!!
+<br>
+> Want to know more? <br>
+> 👉 [Blasteens' READMD.md](https://github.com/future-web3/blasteens-ui) 👈
+
+> Be more comfy watching an intro video?<br>
+> 👉 [Blasteens' Youtube Video](url) 👈
 
 ## Table of Contents
 * [Arcade SDK](#arcade-sdk)
@@ -140,17 +145,6 @@ game.zip
 ## Indie-Game-SDK
 > Stay tuned, coming soon!
 
-## Developed By
-- Blasteens is developed by _The Scorpion Studio_. \
-We're a dynamic developer team based in Melbourne, Australia, deeply fascinated by all aspects of dApps. With a firm belief in the future potential of blockchain technology, we are committed to exploring and contributing to this innovative field. Peace ✌️
-  <p align="left">
-    <img alt="Scorpion Studio" src="public/images/scorpion-studio.png" width="500" >
-  </p>
-- Also, special thanks to _[Blast](https://blast.io/en)_ !
-  <p align="left">
-    <img alt="Blast" src="public/images/blast.svg" width="500" >
-  </p>
-
 ## License
 The MIT License (MIT)
 <br>
@@ -164,3 +158,14 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## Developed By
+- Blasteens is developed by _The Scorpion Studio_. \
+We're a dynamic developer team based in Melbourne, Australia, deeply fascinated by all aspects of dApps. With a firm belief in the future potential of blockchain technology, we are committed to exploring and contributing to this innovative field. Peace ✌️
+  <p align="left">
+    <img alt="Scorpion Studio" src="public/images/scorpion-studio.png" width="500" >
+  </p>
+- Also, special thanks to _[Blast](https://blast.io/en)_ !
+  <p align="left">
+    <img alt="Blast" src="public/images/blast.svg" width="500" >
+  </p>
