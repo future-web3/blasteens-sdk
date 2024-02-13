@@ -148,7 +148,7 @@ We're a dynamic developer team based in Melbourne, Australia, deeply fascinated 
   </p>
 - Also, special thanks to _[Blast](https://blast.io/en)_ !
   <p align="left">
-    <img alt="Blast" src="public/images/blast-powered-by.svg" width="500" >
+    <img alt="Blast" src="public/images/blast.svg" width="500" >
   </p>
 
 ## License
