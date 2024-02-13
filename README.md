@@ -15,8 +15,9 @@ Blasteens SDK is tailored for game developers, streamlining integration with the
   * [Usage](#usage)
   * [Deploy](#deploy)
 * [Indie-Game SDK](#indie-game-sdk)
-* [License](#license)
 * [Developed By](#developed-by)
+* [License](#license)
+  
 ## Arcade SDK
   ### Overview
   The Blasteens Arcade module leverages Redux for efficient state management, automating leaderboard maintenance and simplifying player score handling. It ensures a smooth end-to-end gaming session, encouraging developers to embrace a recommended design pattern for consistent score integration. Following a carnival-inspired rule of providing a ticket with limited chances, each tryout concludes by showcasing the player's score and the highest score of their round.
@@ -138,13 +139,28 @@ game.zip
 > Additionally, please include a game description, and remember to incorporate the game logo located in `/assets/images`.
 ## Indie-Game-SDK
 > Stay tuned, coming soon!
-## License
+
 ## Developed By
-- The SDK is developed by _Scorpion Studio_.
+- Blasteens is developed by _The Scorpion Studio_. \
+We're a dynamic developer team based in Melbourne, Australia, deeply fascinated by all aspects of dApps. With a firm belief in the future potential of blockchain technology, we are committed to exploring and contributing to this innovative field. Peace ✌️
   <p align="left">
     <img alt="Scorpion Studio" src="public/images/scorpion-studio.png" width="500" >
   </p>
 - Also, special thanks to _[Blast](https://blast.io/en)_ !
   <p align="left">
-    <img alt="Blast" src="public/images/blast.svg" width="500" >
+    <img alt="Blast" src="public/images/blast-powered-by.svg" width="500" >
   </p>
+
+## License
+The MIT License (MIT)
+<br>
+<br>
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+Copyright (c) 2024 The Scorpion Studio
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
